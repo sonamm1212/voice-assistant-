@@ -1,0 +1,40 @@
+{
+
+"intents" :[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "hii" ,
+            "Hey" , 
+            "What's up?" , 
+            "Good day!"
+        ] ,
+        "responses" : [
+            "Hello Mam!",
+            "What can I do for you?"
+        ]
+
+    },
+    {
+        "tag": "sierra thoughts" ,
+        "patterns": [
+            "What is meaning of Sierra" ,
+            "Who is sierra",
+            "Where she lives",
+            "Tell me somethings about Sierra"
+        ],
+        "responses": [
+            "Sierra  is a range of mountains defines natural glory of the mountains in bible"
+        ]
+    },
+    {
+        "tag" : "file",
+        "patterns":[
+            "create a file",
+            "create a new file"
+        ],
+        "responses":[]
+        
+    }
+]
+}
